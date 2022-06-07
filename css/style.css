@@ -40,3 +40,18 @@ footer {
   color: black;
   cursor: pointer;
 }
+
+.copyright{
+    margin-top: -10px;
+}
+
+@media (max-width: 600px) {
+  .footer-title {
+    margin-top: 28px;
+    display: inline-block;
+  }
+
+  .footer-link {
+    margin-top: 12px;
+  }
+}
