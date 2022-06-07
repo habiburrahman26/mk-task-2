@@ -1,0 +1,42 @@
+.carousel-banner {
+  background-color: #e9ecef;
+  height: 92vh;
+}
+
+.banner {
+  align-items: center;
+  padding: 100px 20px;
+}
+
+.banner-image {
+  width: 90%;
+}
+
+footer {
+  padding: 80px 20px;
+}
+
+.footer-link {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #495057;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: #495057;
+  cursor: pointer;
+}
+
+.footer-link a:active,
+.footer-link a:hover {
+  color: black;
+  cursor: pointer;
+}

@@ -10,6 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title></title>
   </head>
   <body>
@@ -32,20 +33,77 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Product & Services</a
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
+                Products & services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="nav-link active" href="#">Issu Management</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Become a Client</a
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
+                Become a client
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Bangladeshi Individuals</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Bangladeshi Institutions</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Foregin Investors</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">NRBs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Daily Market Company</a>
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >About Us</a
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
+                About Us
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Capital Profile</a></li>
+                <li><a class="dropdown-item" href="#">Mission & Vission</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Board of Directors</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Management/Executive</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Circulation</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Career Opportunity</a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Login</a>
@@ -57,6 +115,128 @@
         </div>
       </div>
     </nav>
+
+    <!-- banner -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide carousel-banner"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 banner">
+              <div class="col">
+                <img
+                  src="images/Mujib_100_Logo.svg"
+                  alt="banner image"
+                  class="img-fluid banner-image"
+                />
+              </div>
+              <div class="col">
+                <p class="text-success fs-1">
+                  &ldquo;মুজিব বর্ষের অঙ্গীকার উন্নয়ন অর্থায়নের উৎস হবে
+                  পুঁজিবাজার&rdquo;
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 banner">
+              <div class="col">
+                <img
+                  src="images/Mujib_100_Logo.svg"
+                  alt="banner image"
+                  class="img-fluid banner-image"
+                />
+              </div>
+              <div class="col">
+                <p class="text-success fs-1">
+                  &ldquo;মুজিব বর্ষের অঙ্গীকার উন্নয়ন অর্থায়নের উৎস হবে
+                  পুঁজিবাজার&rdquo;
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            neque dolores minima. Commodi quis quod doloremque delectus deleniti
+            ullam sit odit quia quos? Numquam nobis reiciendis illo in debitis,
+            natus officiis est unde consequatur quibusdam corrupti. Et error
+            quis enim.
+          </div>
+          <div class="col">
+            <span class="footer-title">Company</span>
+            <div class="footer-link">
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </div>
+          </div>
+          <div class="col">
+            <span class="footer-title">Services</span>
+            <div class="footer-link">
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </div>
+          </div>
+          <div class="col">
+            <span class="footer-title">Legal</span>
+            <div class="footer-link">
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
